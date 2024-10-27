@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aadey ko Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="quiz-container" id="quiz">
+        <h2 id="question">Question text</h2>
+        <ul>
+            <li>
+                <input type="radio" id="optionA" name="answer" class="answer" value="a">
+                <label for="optionA" id="optionA_text">Answer A</label>
+            </li>
+            <li>
+                <input type="radio" id="optionB" name="answer" class="answer" value="b">
+                <label for="optionB" id="optionB_text">Answer B</label>
+            </li>
+            <li>
+                <input type="radio" id="optionC" name="answer" class="answer" value="c">
+                <label for="optionC" id="optionC_text">Answer C</label>
+            </li>
+            <li>
+                <input type="radio" id="optionD" name="answer" class="answer" value="d">
+                <label for="optionD" id="optionD_text">Answer D</label>
+            </li>
+            <li>
+                <img id="questionImage" src="" alt="Question Image" style="display: none; max-width: 100%; height: auto;">
+            </li>
+        </ul>
+        <button id="next">Next Question</button>
+        <div id="feedback"></div>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
